@@ -7,7 +7,7 @@
 </head>
 <body>
    <!--tag heading: h1 sd h6-->
-   <h1>MDP IT Superstrore</h1> 
+   <h1>MDP IT Superstrore</h1>          
    <h1>MDP IT Superstrore</h1> 
    <h1>ITU GWEJHH JIRR</h1>
    <p>Semua yang dicari ada disini</p> 
@@ -19,7 +19,78 @@
 
     <hr>
 
+
     <!--image-->
     <img src="image/image.png" alt="gambar banner" width="20%">
+    
+    
+    <!--Latihan Tabel-->
+    <table border="1">
+    <tr>
+        <td rowspan="2">NO</td>
+        <td rowspan="2">NPM</td>
+        <td rowspan="2">Nama</td>
+        <td colspan="2">IP Semester</td>
+        <td rowspan="2">IP Kumulatif</td>
+    </tr>
+
+    <tr>
+        <td>smt 1</td>
+        <td>smt 2</td>
+    </tr>
+
+    <tr>
+        <td>2</td>
+        <td>002</td>
+        <td>Agus</td>
+        <td>4.00</td>
+        <td>4.00</td>
+        <td>4.00</td>
+    </tr>
+
+    <tr>
+        <td>1</td>
+        <td>001</td>
+        <td>firman</td>
+        <td>3.50</td>
+        <td>3.50</td>
+        <td>3.50</td>
+    </tr>
+    </table>
+
+    <form action="submit.html" method="post">
+        NPM <br>
+        <input type="text" name="NPM" id="npm"> <br>
+        Nama <br>
+        <input type="text" name="nama" id="nama"> <br>
+        Email <br>
+        <input type="email" name="email" id="email"> <br>
+        Tanggal Lahir <br>
+        <input type="date" name="tglLahir">
+        id="Tanggallahir"> <br>
+
+        Kota Lahir <br>
+        <select name="kotalahir" id="kotalahir">
+            <option value="JKT">Jakarta</option>
+            <option value="PLG">palembang</option>
+            <option value="BTM">Batam</option>
+        </select> <br>
+        Jenis kelamin <br>
+        <input type="radio" name="jk" value="L" checked> Laki laki <br>
+        <input type="radio" name="jk" value="P"> Perempuan
+        Mengetahui UMDP dari mana <br>
+        <input type="checkbox" name="cb1" value="K"> Keluarga <br>
+        
+        <input type="checkbox" name="cb2" value="S"> Sosial media <br>
+        Foto <br>
+        <input type="file" name="Foto" id=""> <br>
+        <button type="submit">simpan</button>
+        <button type="reset">reset</button>
+        
+
+        
+
+        
+
 </body>
 </html>
