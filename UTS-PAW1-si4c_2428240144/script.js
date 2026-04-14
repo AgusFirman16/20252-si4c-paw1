@@ -28,8 +28,7 @@ function tampil(){
     let hasil = JSON.parse(localStorage.getItem("namaBarang"));
     hasil.forEach(element => {
         document.getElementById("list-namaBarang").innerHTML+=
-        document.getElementById("list-jumlah").innerHTML+=
-        document.getElementById("list-jumlah").innerHTML+=
+        
 
         
     });
